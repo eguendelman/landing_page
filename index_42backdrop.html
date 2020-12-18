@@ -1,0 +1,72 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
+    <style>
+        body
+        {
+            font-family: 'Work Sans', sans-serif;
+            background-color: black;
+        }
+
+        /* Background layer with an image */
+        .backdrop {
+            background: url("42.png") center;
+            background-size: 64px;
+        }
+
+        /* Dark foreground layer, with white text, set to "multiply" mix blend mode */
+        .text {
+            color: white;
+            background: black;
+            mix-blend-mode: multiply;
+            text-shadow: 0 0 9px white;
+
+            font-size: 32em;
+            font-weight: 800;
+            text-align: center;
+        }
+
+        #contact
+        {
+            font-size: 2em;
+            font-weight: 400;
+        }
+
+        a
+        {
+            color: gray;
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+            color: white;
+        }
+</style>
+    </style>
+
+</head>
+<body>
+
+<!--
+<div class="backdrop">
+  <p class="text">E.G.</p>
+</div>
+-->
+
+<table width="100%" height="100%">
+<tr>
+  <td align="center" valign="center" height="80%">
+    <div class="backdrop"> <p class="text">E.G.</p> </div>
+  </td>
+</tr>
+
+<tr>
+  <td align="center" valign="bottom">
+    <a href="mailto:info@eg42.net" id="contact">contact</a>
+  </td>
+</tr>
+</table>
+
+</body>
+</html>
